@@ -439,5 +439,21 @@ error {
   body {
     background-size: cover;
   }
+
+  .login-form {
+    transform: scale(1.1);
+  }
   
 }
+
+@media (max-width: 400px) {
+.login-form {
+  transform: scale(0.3);
+}
+  
+}
+
+
+
+
+
